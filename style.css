@@ -15,7 +15,7 @@ p, h1, h2, ul, li{
     margin: 0;
 }
 
-h1,h2 {
+h1,h2,h3 {
     text-transform: uppercase;
 }
 
@@ -52,6 +52,7 @@ img{
 p{
     color: var(--dark-gray-color);
     letter-spacing: 1px;
+    line-height: 1.7;
 }
 
 .resume {
@@ -71,9 +72,14 @@ p{
 }
 
 h2{
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     font-weight: 1000;
     letter-spacing: 1px;
+}
+
+h3{
+    color: var(--dark-gray-color);
+    text-align: center;
 }
 
 .flex{
@@ -82,12 +88,13 @@ h2{
 
 .resume-left{
     width: 60%;
+    margin-right: 60px;
 }
 
 .resume-right{
     width: 35%;
     background-color:var(--max-gray-color);
-    padding: 200px 40px 40px;
+    padding: 200px 35px 35px;
 }
 
 .resume-button{
@@ -100,10 +107,6 @@ h2{
 .name-info{
     width: 60%;
     margin-right: 60px;
-}
-
-.name-info__descr{
-    line-height: 1.7;
 }
 
 .name{
@@ -157,9 +160,9 @@ h2{
 }
 
 .contact-me {
-    margin-bottom: 15px;
+    margin-bottom: 40px;
     flex-direction: column;
-    gap: 5px;
+    gap: 15px;
 }
 
 .education{
@@ -167,12 +170,79 @@ h2{
     text-align: left;
 }
 
+.education__title{
+    margin-bottom: 35px;
+}
+
 .education__list{
-    margin-bottom: 15px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.education__list li{
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .education__list li:not(:last-child){
-    margin: 5px 0 5px;
+    margin: 15px 0 15px;
 }
 
 /*resume-left*/
+
+.examples{
+    margin-bottom: 40px;
+    letter-spacing: 1;
+}
+
+.examples__link{
+    display: block;
+    border-radius: 20px;
+    border: solid 5px var(--max-gray-color);
+    font-size: 0px;
+    overflow: hidden;
+}
+
+.skills{
+    margin-bottom: 40px;
+}
+
+.skills__menu{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.indicator__descr{
+    font-weight: 600;
+    
+}
+
+.indicator__picture{
+    width: 200px;
+    height: 10px;
+    border: 1px solid var(--max-gray-color);
+    border-radius: 30px;
+    background: linear-gradient(to right, var(--max-gray-color) 50%, transparent 0%);
+}
+
+.indicator__picture-basic{
+    background: linear-gradient(to right, var(--max-gray-color) 25%, transparent 0%);
+}
+
+.languages{
+    flex-grow: 1;
+}
+
+.hobbies{
+    flex-grow: 1;
+}
+
+.languages__item, .hobbies__item{
+    text-transform: uppercase;
+}
+
+.hobbies__item, .languages__item:not(:last-child){
+    margin-bottom: 10px;
+}
