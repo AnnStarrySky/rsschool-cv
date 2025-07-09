@@ -7,8 +7,7 @@
 * **Email:** anna123@gmail.com
 * **GitHub:** AnnStarrySky
 ## About Me
-I have been engaged in sales and customer service for a long time. During my maternity leave, I decided to change my profession.  
- I can learn on my own. I constantly develop my professional skills. I have teamwork skills.
+I have been engaged in sales and customer service for a long time. During my maternity leave, I decided to change my profession. I can learn on my own. I constantly develop my professional skills. I have teamwork skills.
 ## Skills
 * HTML
 * CSS
@@ -17,8 +16,7 @@ I have been engaged in sales and customer service for a long time. During my mat
 * GitHub
 ## Code Examples
 Write a function that takes in a string of one or more words,
-and returns the same string, but with all words that have five or more letters reversed
-(Just like the name of this Kata). Strings passed in will consist of only letters and spaces. 
+and returns the same string, but with all words that have five or more letters reversed (Just like the name of this Kata). Strings passed in will consist of only letters and spaces.
 Spaces will be included only when more than one word is present.
 ```javascript
 function spinWords(string){
@@ -33,10 +31,9 @@ function spinWords(string){
 };
 ```
 ## Education
-* **University:** 
-  * I have a higher education.  
+* **University:**
+  * I have a higher education.
   * I have a degree in engineering and economics.
-
 * **Courses:**
   * SkillBox: Front-end developer
   * Udemy: JavaScript + React (in progress)
