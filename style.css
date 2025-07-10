@@ -257,6 +257,7 @@ h3{
 
 #Layer_1{
     width: 150px;
+    transition: 0.4s ease-in-out;
 }
 
 .footer__year{
@@ -268,4 +269,34 @@ h3{
     align-items:center;
     gap: 20px;
 
+}
+
+/* hover */
+
+h2{
+    transition: 0.2s ease-in-out;
+}
+
+h2:hover{
+    color: var(--dark-gray-color);
+    cursor: pointer;
+}
+
+.resume-right h2:hover{
+    color: var(--black-color);
+    cursor: pointer;
+}
+
+.footer__git{
+    transition: 0.4s ease-in-out;
+}
+
+.footer__git:hover{
+    fill: var(--white-color);
+}
+
+#Layer_1:hover{
+    padding: 10px;
+    outline: 1px solid var(--white-color);
+    border-radius: 5px;
 }
