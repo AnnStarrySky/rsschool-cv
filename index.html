@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anna - CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header class="header">
+            <div class="photo">
+                <img src="img/sky.jpg" alt="Photo">
+            </div>
+
+            <div class="header-info">
+                <h1>Anna</h1>
+
+                <nav>
+                    <ul class="contacts">
+                        <li>Location: Russia</li>
+                        <li>Phone: +7 123 456 78 90</li>
+                        <li>Email: anna123@gmail.com</li>
+                        <li>GitHub: <a href="https://github.com/AnnStarrySky">AnnStarrySky</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+
+            <section>
+                <h2>About Me</h2>
+                <p>
+                    I have been engaged in sales and customer service for a long time.
+                    During my maternity leave, I decided to change my profession.
+                    I can learn on my own. I constantly develop my professional skills.
+                    I have teamwork skills.
+                </p>
+            </section>
+
+            <section>
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Figma</li>
+                    <li>GitHub</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Code Example</h2>
+
+                <p>
+                    Write a function that takes in a string of one or more words,
+                    and returns the same string, but with all words that have five
+                    or more letters reversed.
+                </p>
+
+                <pre><code>function spinWords(string) {
+    let words = string.split(' ');
+
+    let result = words.map(word &gt;{
+        if (word.length &gt;5) {
+            return word.split('').reverse().join('');
+        }
+
+        return word;
+    });
+
+    return result.join(' ');
+};</code></pre>
+            </section>
+
+            <section>
+                <h2>Education</h2>
+
+                <h3>University</h3>
+                <ul>
+                    <li>I have a higher education.</li>
+                    <li>I have a degree in engineering and economics.</li>
+                </ul>
+
+                <h3>Courses</h3>
+                <ul>
+                    <li>SkillBox: Front-end developer</li>
+                    <li>Udemy: JavaScript + React (in progress)</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Languages</h2>
+                <ul>
+                    <li><strong>Russian:</strong> native speaker</li>
+                    <li><strong>English:</strong> A1</li>
+                </ul>
+            </section>
+
+        </main>
+
+        <footer class="footer">
+            <a href="https://github.com/AnnStarrySky">GitHub: AnnStarrySky</a>
+
+            <span>2026</span>
+
+            <a href="https://rs.school/">
+                <img
+                    src="img/rs-school-logo.svg"
+                    alt="RS School logo">
+            </a>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
